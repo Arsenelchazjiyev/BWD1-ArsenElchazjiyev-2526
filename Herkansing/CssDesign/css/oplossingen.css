@@ -1,0 +1,48 @@
+/*
+ * Jouw oplossing hier
+ *
+ * @author Jouw Naam <jouw.email@student.odisee.be>
+ */
+
+/* 1. algemene tekst */
+body {
+    font-family: open-sans;
+    color: #666;
+    size: 1.6;
+}
+
+/* 2. buttons */
+button {
+    display: inline-block;
+    color:  kleur is #ee5544;
+    size: 20px;
+}
+button:hover {
+    color: #66bb99;
+    transition-duration: 0.3ms;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+/* 3. sociale media menu */
+ul {
+    display: flex;
+    display: inline;
+    width: 50px;
+    height: 50px;
+    size: 24px
+}
+ul:hover{
+    background-color: white;
+    color: #66bb99;
+    size: 36px;
+    transition-duration: 1s;
+}
+
+/* 4. testimonials */
+div{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+
